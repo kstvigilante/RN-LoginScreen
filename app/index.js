@@ -127,7 +127,7 @@ class MusicApp extends Component {
     return (
       <KeyboardAvoidingView
         style={{
-          flex: 1,
+          
           backgroundColor: "white",
           justifyContent: "flex-end",
           flexGrow: 1
@@ -180,7 +180,7 @@ class MusicApp extends Component {
             <Animated.View
               style={{
                 ...styles.button,
-                backgroundColor: "#2E71DC",
+                backgroundColor: "steelblue",
                 opacity: this.buttonOpacity,
                 transform: [{ translateY: this.buttonY }]
               }}
@@ -280,7 +280,7 @@ const styles = StyleSheet.create({
     borderColor: "rgba(0,0,0,0.2)"
   },
   signInBtn: {
-    backgroundColor: "skyblue",
+    backgroundColor: "steelblue",
     color: "white"
   }
 });
